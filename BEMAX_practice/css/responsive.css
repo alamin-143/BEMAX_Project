@@ -1,0 +1,219 @@
+/* for large screen */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+    .single-feature .feature-content {
+        padding: 20px;
+        transform: translateY(76%);
+    }
+    .blog-post-active .owl-nav button.owl-next, .blog-post-active .owl-nav button.owl-prev {
+        top: -25%;
+    }
+    .testimonial-active .owl-nav button.owl-next, .testimonial-active .owl-nav button.owl-prev {
+        top: -29%;
+    }
+    .footer-content input[type="submit"] {
+        top: 56px;
+        left: 0;
+        margin: auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px)  {
+    .container {
+        width: 750px;
+    }
+    .col-md-12 {
+        width: 100%;
+        float: left;
+        padding: 0 15px;
+    }
+    .col-md-6 {
+        width: 50%;
+        float: left;
+        padding: 0 15px;
+    }
+    .col-md-4 {
+        width: 33.33%;
+        float: left;
+        padding: 0 15px;
+    }
+    .col-md-3 {
+        width: 25%;
+        float: left;
+        padding: 0 15px;
+    }
+    /* feature area start here */
+    .single-feature {
+        text-align: center;
+    }
+    .single-feature .feature-content p {
+        display: none;
+    }
+    .single-feature h3 {
+        margin-top: 50px;
+    }
+    .single-feature .feature-content {
+        padding: 15px;
+        transform: translateY(80%);
+}
+    .single-project {
+        position: relative;
+        height: 220px;
+        width: 100%;
+    }
+    /* feature area end here */
+
+    .about-video {
+        margin-bottom: 20px;
+    }
+    /* blog area start here */
+    .blog-area .section-title {
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 45px;
+    }
+    .blog-post-active .owl-nav button.owl-next, .blog-post-active .owl-nav button.owl-prev {
+        top: -23%;
+        left: 500px;
+    }
+    .testimonial-active .owl-nav button.owl-next, .testimonial-active .owl-nav button.owl-prev {
+        top: -37%;
+        left: 480px;
+    }
+    /* blog area end here */
+    /* footer start here */
+    .footer-content input[type="submit"] {
+        top: 56px;
+        left: 0;
+        margin: auto;
+    }
+    .footer-none {
+        display: none;
+    }
+    /* footer end here */
+
+}
+
+/* small mobile screen */
+@media (max-width: 767px) {
+    .container {
+        width: 300px;
+    }
+    .col-sm-12 {
+        width: 100%;
+        float: left;
+        padding: 0 15px;
+    }
+    .mean-container .mean-bar {
+        margin: 30px 0px;
+    }
+
+    /* slider area start  */
+    .slider-area .single-slide h4 {
+        font-size: 25px;
+    }
+    .slider-area .single-slide h2 {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    .slider-area .single-slide a {
+        padding: 15px 30px;
+    }
+    /* slider area end  */
+
+    /* cta area start  */
+    .cta-button {
+        text-align: left;
+    }
+    .cta-button a {
+        padding: 15px 40px;
+        margin-top: 20px;
+    }
+    /* cta area end  */
+
+    /* features area start  */
+    .features-area .single-feature {
+        margin-bottom: 30px;
+    }
+    .single-feature .feature-content {
+        padding: 20px;
+        transform: translateY(76%);
+    }
+    /* features area end  */
+
+    /* service area start*/
+    .section-title {
+        margin-bottom: 65px;
+    }
+    .single-service {
+        margin-bottom: 40px;
+    }
+    /* service area end */
+
+    /* about area start  */
+    .about-video {
+        margin-bottom: 30px;
+    }
+    /* about area start  */
+
+    /* working area start */
+    .working-img {
+        display: none;
+    }
+    .working-description {
+        padding: 50px 0;
+    }
+    /* working area start */
+
+    /* blog area start here */
+    .blog-area {
+        padding: 40px 0 70px 0;
+    }
+    .blog-post {
+        display: block;
+    }
+    .blog-area .blog-content {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .blog-post-active .owl-nav button.owl-next, 
+    .blog-post-active .owl-nav button.owl-prev {
+        top: -13%;
+    }
+    .testimonial-active .owl-nav button.owl-next, 
+    .testimonial-active .owl-nav button.owl-prev {
+        top: -24%;
+    }
+    .section-title {
+        margin-top: 40px;
+    }
+
+    /* blog area start here */
+    .brand-area {
+        padding: 50px 0;
+    }
+    .footer-wedget {
+        margin-bottom: 25px;
+    }
+
+}
+
+/* large mobile  */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px;
+    }
+    .single-project {
+        position: relative;
+        height: 220px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .project-active .owl-nav button.owl-prev {
+        left: 25px;
+    }
+    .project-active .owl-nav button.owl-next {
+        right: 25px;
+    }
+}
